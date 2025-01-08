@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="lieux.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="import" href="script.js">
+    <title>Lieux</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="imgs/logo_mcn.png" alt="le logo de Kyoto" id="kyotologo">
+        </div>
+        <div class="links">
+            <a href="index.html">Accueil</a>
+            <a href="lieux.html">Lieux</a>
+            <a href="#">Architecture</a>
+            <a href="#">Histoire</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>   
+        <div id="myLinks">
+            <div class="links2">
+                <a href="index.html">Accueil</a>
+                <a href="lieux.html">Lieux</a>
+                <a href="#">Architecture</a>
+                <a href="#">Histoire</a>
+            </div>
+        </div>
+    </header>
+    
+
+    <span class="container_monument monument1">
+
+        <div class="card">
+            <a href="#"><img src="img_lieux/nijo.jpg" width="100%" alt="image du chateau de Nijo"></a>
+            <div class = "texte">
+                <h1>Chateau de Nijō</h1>
+                <p>L'incontournable château de Nijō de Kyoto.</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <a href="#"><img src="img_lieux/Kiyomizobetter.jpg" width="100%" alt="image du Kiyomizo-dera"></a>
+            <div class = "texte">
+                <h1>Kiyomizu-dera</h1>
+                <p>Le temple bouddhiste qui offre un vue époustouflante de Kyoto.</p>
+            </div>
+        </div>
+        <div class="card">
+            <a href="temple-kozan.html"><img src="img_lieux/temple_kozan.jpg" width="100%" alt="image du Kozan-ji"></a>
+            <div class = "texte">
+                <h1>Kōzan-ji</h1>
+                <p>Le temple bouddhiste avec le plus vieux manga de l'histoire.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img_lieux/Toji_2015.jpg" width="100%" alt="image du temple Toji">
+            <div class = "texte">
+                <h1>Tō-ji</h1>
+                <p>La fameuse pagode à 5 niveaux de Kyoto.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img_lieux/Kamigamo.jpg" width="100%" alt="">
+            <div class = "texte">
+                <h1>Kamigamo</h1>
+                <p>Un des plus anciens sanctuaire Shinto de Kyoto.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img_lieux/Jingoji_Kyoto.jpg" width="100%" alt="">
+            <div class = "texte">
+                <h1>Jingo-ji</h1>
+                <p>Le temple bouddhiste abritant plusieurs statues vieilles de plusieurs siècles.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img_lieux/saimyo-ji-temple.jpg" width="100%" alt="image du temple saimyoji">
+            <div class = "texte">
+                <h1>Saimyō-ji</h1>
+                <p>Le temple bouddhiste situé à mi-chemin des temple Kōzan-ji et Jingo-ji.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img_lieux/mousse.jpg" width="100%" alt="image du temple saihoji">
+            <div class = "texte">
+                <h1>Saihō-ji kokedera</h1>
+                <p>Le temple de la mousse.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img_lieux/byodo-in.jpg" width="100%" alt="image du temple Byodo-in">
+            <div class = "texte">
+                <h1>Byōdō-in</h1>
+                <p>Le temple Byodoin, flottant paisiblement sur son étang.</p>
+            </div>
+        </div>
+    </span>
+    
+    <footer class="footer">
+        <div class="footer_container">
+            <span class="logo_footer">
+                <span>
+                    <a href="https://whc.unesco.org" target="_blank"><img src="imgs/UNESCO_logo.png" width="50vw" alt=""></a>
+                </span>
+                <span>
+                    <a href="https://whc.unesco.org/en/list/688/" target="_blank"><img src="imgs/kyoto_logo.png" width="50vw" alt=""></a>
+                </span>
+                <span>
+                    <a href="https://www.univ-gustave-eiffel.fr" target="_blank"><img class="gustave"src="imgs/logo_gustave.png" width="50vw" alt=""></a> 
+                </span>
+                
+            </span>
+            <span class="footer_text">
+                
+                
+            </span>
+        </div>
+        <div class="rights">
+            <p>© 2025 - Tous droits réservés</p>
+        </div>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+            x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
