@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="import" href="script.js">
+    <title>SAE1</title>
+    <style>
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="imgs/logo_mcn.png" alt="le logo de Kyoto" id="kyotologo">
+        </div>
+        <div class="links">
+            <a href="index.html">Accueil</a>
+            <a href="lieux.html">Lieux</a>
+            <a href="#">Architecture</a>
+            <a href="#">Histoire</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>   
+        <div id="myLinks">
+            <div class="links2">
+                <a href="index.html">Accueil</a>
+                <a href="lieux.html">Lieux</a>
+                <a href="#">Architecture</a>
+                <a href="#">Histoire</a>
+            </div>
+        </div>
+    </header>
+    <section class="sec1">
+        <img src="imgs/bg1.jpg" alt="une image de fond" width="100%">
+        <img src="imgs/bg2.jpg" alt="une image de fond" width="100%">
+        <img src="imgs/bg3.jpg" alt="une image de fond" width="100%">
+        
+        <div class="center-page">
+            <h1>KYOTO</h1>
+        </div>
+    </section>
+    <section class="sec2">
+        <div class="barre-defilante">
+            <div class="wrapper">
+                <div class="marquee">
+                    <p>
+                        KYOTO - 京都 - きょうと - KYOTO - 京都 - きょうと - KYOTO - 京都 - きょうと - KYOTO - 京都 - きょうと - KYOTO - 京都 - きょうと -&nbsp;
+                    </p>
+                    <p>
+                        KYOTO - 京都 - きょうと - KYOTO - 京都 - きょうと - KYOTO - 京都 - きょうと - KYOTO - 京都 - きょうと - KYOTO - 京都 - きょうと -
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="image">
+                    <img src="imgs/Fushimi-Inari-Taisha.jpg" width="100%" height="100%" alt="">
+                </div>
+                <div class="texte">
+                    <h1>Fushimi-Inari-Taisha</h1>
+                    <p>Sanctuaire shinto célèbre pour ses milliers de torii rouges formant un chemin mystique.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="imgs/kinkaku-ji.jpg" width="100%" height="100%" alt="">
+                </div>
+                <div class="texte">
+                    <h1>Kinkaku-ji</h1>
+                    <p>Temple bouddhiste recouvert d'or, reflétant sa splendeur sur un paisible étang.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="imgs/kiyomizu-dera.jpg" width="100%" height="100%" alt="">
+                </div>
+                <div class="texte">
+                    <h1>Kiyomizu-dera</h1>
+                    <p>Temple en bois offrant une vue spectaculaire sur Kyoto depuis sa vaste terrasse.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer_container">
+            <span class="logo_footer">
+                <span>
+                    <a href="https://whc.unesco.org" target="_blank"><img src="imgs/UNESCO_logo.png" width="50vw" alt=""></a>
+                </span>
+                <span>
+                    <a href="https://whc.unesco.org/en/list/688/" target="_blank"><img src="imgs/kyoto_logo.png" width="50vw" alt=""></a>
+                </span>
+                <span>
+                   <a href="https://www.univ-gustave-eiffel.fr" target="_blank"><img class="gustave"src="imgs/logo_gustave.png" width="50vw" alt=""></a> 
+                </span>
+                
+            </span>
+            <span class="footer_text">
+            </span>
+        </div>
+        <div class="rights">
+            <p>© 2025 - Tous droits réservés</p>
+        </div>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+            x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
